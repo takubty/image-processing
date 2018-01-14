@@ -10,7 +10,7 @@ imagesc(ORG); colormap(gray); colorbar;
 IMG = ORG > 64;  
 imagesc(IMG); colormap(gray); colorbar;  
 輝度値が64以上の画素を1，それ以外を0に変換した画像を表示．  
-![fig3_2](?/image/fig3_2.png)  
+![fig3_2](/image/fig3_2.png)  
 図2 2値画像  
 
 IMG = ORG > 128;  

@@ -22,7 +22,7 @@ imagesc(IMG); colormap(gray); colorbar;
 IMG = medfilt2(ORG,[3 3]);  
 imagesc(IMG); colormap(gray); colorbar;  
 メディアンフィルタでノイズ除去した画像を表示  
-![fig9_4](/imege/fig9_4.png)  
+![fig9_4](/image/fig9_4.png)  
 図4  メディアンフィルタで処理した画像  
 
 f=[0,-1,0;-1,5,-1;0,-1,0];  

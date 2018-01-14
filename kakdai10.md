@@ -15,7 +15,7 @@ imagesc(IMG); colormap('gray'); colorbar;
 
 IMG = edge(ORG,'sobel');  
 imagesc(IMG); colormap('gray'); colorbar;  
-ソベル法でさらにエッジ抽出をして表示
+ソベル法でさらにエッジ抽出をして表示  
 ![fig10_3](/image/fig10_3.png)  
 図3 エッジ抽出画像  
 

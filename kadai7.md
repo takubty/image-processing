@@ -4,7 +4,7 @@ ORG = imread('gunma-IMG_7896_TP_V.png');
 ORG = rgb2gray(ORG);  
 imhist(ORG);  
 原画像を読み込み，濃淡のヒストグラムを作成し表示する．  
-![fig7_1](/image/fig7_1.png)
+![fig7_1](/image/fig7_1.png)  
 図1 ヒストグラム
 
 ORG = double(ORG);  
